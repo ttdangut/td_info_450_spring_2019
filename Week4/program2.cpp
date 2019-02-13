@@ -14,7 +14,7 @@ using namespace std;
 int main()
 {
 
-	char StudentInClass[30][02];
+	char StudentInClass[30][20]
 
 	for (int s = 0; s < 30; s++)
 	{
