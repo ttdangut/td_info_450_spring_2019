@@ -14,7 +14,7 @@ using namespace std;
 	{
 		int wheels;
 		int passengers;
-		char vehicle;
+		string vehicle;
 
 
 	public:
@@ -29,9 +29,16 @@ using namespace std;
 		}
 		int get_passengers() {
 			return passengers;
+		} // new code added
+		void set_vehicle(string str)
+		{   
+			vehicle = str;
 		}
-		char vehicle() {   
-			return vehicle;
+		string get_vehicle()
+		{
+		
+		return vehicle;
+		
 		}
 	};
 
